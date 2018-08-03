@@ -1,0 +1,31 @@
+{
+  "name": "diane-proxy",
+  "version": "1.0.0",
+  "description": "Diane Proxy Server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AirCnB/diane-proxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AirCnB/diane-proxy/issues"
+  },
+  "homepage": "https://github.com/AirCnB/diane-proxy#readme",
+  "dependencies": {
+    "nodemon": "^1.18.3",
+    "react": "^16.4.2"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-nodeunit": "^2.0.0",
+    "grunt-contrib-uglify": "^3.4.0",
+    "react-dom": "^16.4.2"
+  }
+}
