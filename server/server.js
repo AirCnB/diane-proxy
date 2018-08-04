@@ -57,8 +57,6 @@ app.post('/:id/reviews/query=:searchTerm', (req, res) => {
  app.get('/api/listings/:id/bookings', (request, res) => {
   let id = Number(request.params.id);
   axios.get(`http://ec2-34-203-218-92.compute-1.amazonaws.com/api/listings/${id}/bookings`)
-    .then(response => {
-      console.log("response", response)
-      res.status(200).send(response.data)})
+    .then(response => {res.status(200).send(response.data)})
     .catch(err => {res.status(500).send(err)});
 });
