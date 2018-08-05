@@ -15,5 +15,7 @@
 }
 
 #bookings {
+  position: sticky;
+  top: 50px;
   float: right;
 }
