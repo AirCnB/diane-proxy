@@ -6,14 +6,19 @@
   margin-bottom: 50px;
 }
 
-#listing-description {
+#body {
+  height: 5040px;
+  width: 1048px;
   margin-top: 10px;
-  margin-left: 200px;
+  margin: auto;
+}
+
+#listing-description {
+  
 }
 
 #reviews {
-  margin: 50px auto;
-  margin-left: 200px;
+  margin-top: 10px;
 }
 
 #bookings {
@@ -21,5 +26,4 @@
   position: sticky;
   float: right;
   top: 50px;
-  margin-right: 200px;
 }
