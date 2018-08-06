@@ -3,19 +3,23 @@
 }
 
 #banner {
-
+  margin-bottom: 50px;
 }
 
 #listing-description {
-
+  margin-top: 10px;
+  margin-left: 200px;
 }
 
 #reviews {
-
+  margin: 50px auto;
+  margin-left: 200px;
 }
 
 #bookings {
+  display: block;
   position: sticky;
-  top: 50px;
   float: right;
+  top: 50px;
+  margin-right: 200px;
 }
